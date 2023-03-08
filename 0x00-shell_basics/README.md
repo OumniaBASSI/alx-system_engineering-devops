@@ -6,3 +6,4 @@ Display current directory contents, including hidden files (starting with .). Us
 Display current directory contents : Long format/with user and group IDs displayed numerically/And hidden files (starting with .) : ls -lan
 Create a script that creates a directory named my_first_directory in the /tmp/ directory : mkdir /tmp/my_first_directory
 Move the file betty from /tmp/ to /tmp/my_first_directory : mv /tmp/betty  /tmp/my_first_directory 
+Delete the file betty/The file betty is in /tmp/my_first_directory : rm /tmp/my_first_directory/betty
