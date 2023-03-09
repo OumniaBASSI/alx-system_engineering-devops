@@ -2,3 +2,4 @@ script that switches the current user to the user betty : su bettY
 script that prints the effective username of the current user : id -un
 script that prints all the groups the current user is part of : groups
 script that changes the owner of the file hello to the user betty : chown betty hello
+script that adds execute permission to the owner of the file hello : chmod u+x hello
