@@ -15,3 +15,4 @@ Script that prints the type of the file named iamafile. The file iamafile will b
  Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory : cp -nu *.html ../
  script that moves all files beginning with an uppercase letter to the directory /tmp/u /You can assume that the directory /tmp/u will exist when we will run your script : mv [[:upper:]]* /tmp/u
  script that deletes all files in the current working directory that end with the character ~ : rm *~
+102-tree : mkdir -p welcome/to/school
