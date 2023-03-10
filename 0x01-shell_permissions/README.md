@@ -8,3 +8,4 @@ script that adds execution permission to the owner, the group owner and the othe
  script that sets the permission to the file hello/ Owner: no permission at all/Group: no permission at all/Other users: all the permissions : chmod 077 hello
 script that sets the mode of the file hello to The file hello will be in the working directory/You are not allowed to use commas for this script : chmod 753 hello
 script that sets the mode of the file hello the same as olleh’s mode/The file hello will be in the working directory/The file olleh will be in the working directory :chmod --reference=olleh hello
+script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users : chmod -R a+X */
