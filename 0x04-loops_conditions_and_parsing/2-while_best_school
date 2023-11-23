@@ -1,5 +1,5 @@
 #!/usr/bin/nev bash
-#print best school using while loop
+# print best school using while loop
 
 n=0
 while [ $n -le 9 ]
