@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
-# Read from a file
+# parsing Apache log file access using awk 
 
-while IFS= read -r passwd
-do
-	echo "$passwd" | cut -d ':' -f1,3,6 
-done < /etc/passwd	
+awk '{print $1, $9}' apache-access.log
