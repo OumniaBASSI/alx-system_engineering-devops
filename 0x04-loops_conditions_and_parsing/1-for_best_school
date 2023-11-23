@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-#display BEST SCHOOL muliple times
+#display BEST SCHOOL 10 times
 
-for ((i = 0; i < 10; i++))
+for _ in {1..10}
 do
 	echo "Best School"
 done
